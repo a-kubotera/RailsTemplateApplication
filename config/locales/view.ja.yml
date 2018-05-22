@@ -1,0 +1,6 @@
+ja:
+  prov:
+    sessions:
+      new:
+        title: ログイン
+        current_user_name: 現在のログインユーザー：

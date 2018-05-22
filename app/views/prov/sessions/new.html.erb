@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card" style="width:50%; margin-top:30px;">
+    <div class="card-body">
+      <h4 class="card-title"><%= t('.title')%></h4>
+      <h6 class="card-subtitle mb-2 text-muted"><%= t('.current_user_name')%><%= current_user&.name %></h6>
+      <%= form_with url: prov_signin_path do |form| %>
+        <p class="card-text">
+          <%= form.collection_select :user_id, Testuser.all, :id, :name, {prompt: 'ユーザーを選択'}, {class: 'form-control'}%>
+        </p>
+        <%= form.submit :login ,class:'btn btn-primary' %>
+        <%= link_to 'logout', prov_signout_path, method: :delete, class:'btn btn-dark' %>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+ja:
+  activerecord:
+    models:
+      testuser: テストユーザー
+    attributes:
+      testuser:
+        name: 名前
