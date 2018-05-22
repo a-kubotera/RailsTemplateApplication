@@ -1,7 +1,7 @@
 # README
 
 ### Railsテンプレート
-Railsアプリ開発用テンプレート用レポジトリ。  
+Railsアプリ開発用テンプレート用レポジトリ。  
 簡単なアプリやGEMのお試し用に。  
 
 | | version |
@@ -45,5 +45,3 @@ DB設定後にサーバーを起動し、下記へアクセス
 ```
 http://localhost:3000/prov/signin
 ```
-TestUserModelに登録されたユーザーでログインが可能
-
