@@ -17,7 +17,7 @@ git clone git@github.com:a-kubotera/RailsTemplateApplication
 ```
 2. アプリの名前を設定
 ```
-mv RailsTemplate [新しいアプリ名]
+mv RailsTemplateapplication [新しいアプリ名]
 cd [新しいアプリ名]
 ```
 3. Gitリポジトリを再作成
