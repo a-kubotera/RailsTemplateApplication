@@ -13,7 +13,7 @@ Railsアプリ開発用テンプレート用レポジトリ。
 
 1. git cloneする
 ```
-git clone git@github.com:a-kubotera/RailsTemplate
+git clone git@github.com:a-kubotera/RailsTemplateApplication
 ```
 2. アプリの名前を設定
 ```
